@@ -1,5 +1,5 @@
 import React from "react";
-// plugin that creates slider
+import Button from "components/CustomButtons/Button.js";
 
 export default function SectionBasics() {
   React.useEffect(() => {});
@@ -9,6 +9,9 @@ export default function SectionBasics() {
       <div>
         <div>
           <h2>Basic Elements</h2>
+          <Button type="button" color="primary">
+            Click if u hate Prettier/Prettier
+          </Button>
         </div>
       </div>
     </div>
