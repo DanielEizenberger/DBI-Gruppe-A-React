@@ -10,9 +10,11 @@ import Header from "components/Header/Header.js";
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import Parallax from "components/Parallax/Parallax.js";
+import ServiceAddButton from "components/CustomButtons/ServiceAddButton";
+import OpenEmployeesButton from "components/CustomButtons/OpenEmployeesButton";
+import OpenMapButton from "components/CustomButtons/OpenMapButton";
 // sections for this page
 import SectionBasics from "./Sections/SectionBasics.js";
-
 import styles from "assets/jss/material-kit-react/views/components.js";
 
 const useStyles = makeStyles(styles);
@@ -39,12 +41,20 @@ export default function Components(props) {
               <div className={classes.brand}>
                 <h1 className={classes.title}>Service Application</h1>
                 <h3 className={classes.subtitle}>HTL Grieskirchen</h3>
+                <ServiceAddButton className={classes.button} color="primary">
+                  Neuen Service hinzufügen
+                </ServiceAddButton>
+                <OpenEmployeesButton className={classes.button} color="warning">
+                  Mitarbeiter anzeigen
+                </OpenEmployeesButton>
+                <OpenMapButton className={classes.button} color="primary">
+                  Karte anzeigen
+                </OpenMapButton>
               </div>
             </GridItem>
           </GridContainer>
         </div>
       </Parallax>
-
       <div className={classNames(classes.main, classes.mainRaised)}>
         <SectionBasics />
       </div>
