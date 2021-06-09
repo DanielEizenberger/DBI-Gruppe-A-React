@@ -16,13 +16,18 @@ import OpenMapButton from "components/CustomButtons/OpenMapButton";
 // sections for this page
 import SectionTable from "./Sections/SectionTable.js";
 import styles from "assets/jss/material-kit-react/views/components.js";
-import SectionSearch from "./Sections/SectionSearch";
-import SectionFooter from "./Sections/SectionFooter";
+//import SectionSearch from "./Sections/SectionSearch";
+//import SectionFooter from "./Sections/SectionFooter";
 import ownStyles from '../../assets/css/myOwnStyle.module.css'
+
+import {Link} from "react-router-dom";
 
 const useStyles = makeStyles(styles);
 
 export default function Components(props) {
+
+
+
   const classes = useStyles();
   const { ...rest } = props;
   return (
@@ -46,13 +51,13 @@ export default function Components(props) {
                 <h1 className={classes.title}>Service Application</h1>
                 <h3 className={classes.subtitle}>HTL Grieskirchen</h3>
                 <ServiceAddButton className={classes.button} color="primary">
-                  Neuen Service hinzufügen
+                  <Link to="/createService">Neuen Service hinzufügen</Link>
                 </ServiceAddButton>
                 <OpenEmployeesButton
                   className={classes.button}
                   color="secondary"
                 >
-                  Mitarbeiter anzeigen
+                    <Link to="/showEmployees">Mitarbeiter anzeigen</Link>
                 </OpenEmployeesButton>
                 <OpenMapButton className={classes.button} color="primary">
                   Karte anzeigen
@@ -62,13 +67,13 @@ export default function Components(props) {
           </GridContainer>
         </div>
       </Parallax>
-      <div className={classNames(classes.main, classes.mainRaised, ownStyles.mainRaised)} >
+<div className={classNames(classes.main, classes.mainRaised, ownStyles.mainRaised)} >
 
-        <SectionSearch/>
-        <SectionTable />
-        <SectionFooter/>
+    {/*<SectionSearch/>*/}
+    <SectionTable/>
+    {/*<SectionFooter/>*/}
 
-      </div>
-    </div>
-  );
+</div>
+</div>
+);
 }

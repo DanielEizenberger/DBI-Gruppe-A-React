@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9c7b34c-ce73-4d61-8c0e-80da7c1f0300" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/material-kit-react-main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Components/Sections/SectionFooter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Components/Sections/SectionSearch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Components/newEmployees.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Components/newService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Components/showEmployees.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Components/Components.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Components/Components.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Components/Sections/SectionTable.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Components/Sections/SectionTable.js" afterDir="false" />
     </list>
@@ -18,16 +19,18 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/index.js" root0="SKIP_INSPECTION" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -61,6 +64,9 @@
       <recent name="C:\Users\David\Desktop\schule\4A\DBI\Projekt\DBI-Gruppe-A-React\material-kit-react-main\src\assets\css" />
       <recent name="C:\Users\David\Desktop\schule\4A\DBI\Projekt\DBI-Gruppe-A-React\material-kit-react-main\src" />
       <recent name="C:\Users\David\Desktop\schule\4A\DBI\Projekt\DBI-Gruppe-A-React\material-kit-react-main\src\assets\img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\David Lienbacher\Documents\GitHub\DBI-Gruppe-A-React\material-kit-react-main\src\views\Components" />
     </key>
   </component>
   <component name="RunManager">
