@@ -44,7 +44,10 @@ export default function Components(props) {
                 <ServiceAddButton className={classes.button} color="primary">
                   Neuen Service hinzufügen
                 </ServiceAddButton>
-                <OpenEmployeesButton className={classes.button} color="warning">
+                <OpenEmployeesButton
+                  className={classes.button}
+                  color="secondary"
+                >
                   Mitarbeiter anzeigen
                 </OpenEmployeesButton>
                 <OpenMapButton className={classes.button} color="primary">
