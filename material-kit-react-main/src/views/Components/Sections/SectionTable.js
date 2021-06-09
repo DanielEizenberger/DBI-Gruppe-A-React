@@ -1,24 +1,13 @@
 import React from "react";
-import Button from "components/CustomButtons/Button.js";
+
 import Table from 'react-bootstrap/Table';
 import "assets/scss/material-kit-react.scss?v=1.10.0";
 
-export default function SectionBasics() {
+export default function SectionTable() {
   React.useEffect(() => {});
   return (
     <div>
-      <div>
 
-        <div>
-          <h2>Basic Elements</h2>
-          <Button type="button" color="primary">
-            Click if u hate Prettier/Prettier
-          </Button>
-
-        </div>
-      </div>
-
-      <div>
           <Table responsive>
             <thead>
               <tr>
@@ -50,7 +39,7 @@ export default function SectionBasics() {
               </tr>
             </tbody>
           </Table>
-      </div>
+
     </div>
   );
 }

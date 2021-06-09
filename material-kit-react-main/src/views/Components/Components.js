@@ -14,7 +14,7 @@ import ServiceAddButton from "components/CustomButtons/ServiceAddButton";
 import OpenEmployeesButton from "components/CustomButtons/OpenEmployeesButton";
 import OpenMapButton from "components/CustomButtons/OpenMapButton";
 // sections for this page
-import SectionBasics from "./Sections/SectionBasics.js";
+import SectionTable from "./Sections/SectionTable.js";
 import styles from "assets/jss/material-kit-react/views/components.js";
 
 const useStyles = makeStyles(styles);
@@ -34,6 +34,7 @@ export default function Components(props) {
         }}
         {...rest}
       />
+
       <Parallax image={require("assets/img/boat-5889919.png").default}>
         <div className={classes.container}>
           <GridContainer>
@@ -59,7 +60,10 @@ export default function Components(props) {
         </div>
       </Parallax>
       <div className={classNames(classes.main, classes.mainRaised)}>
-        <SectionBasics />
+
+
+        <SectionTable />
+
       </div>
     </div>
   );
