@@ -1,4 +1,6 @@
 module.exports = {
+  root: true,
+  extends: '@react-native-community',
   parser: "babel-eslint",
   env: {
     es6: true,
@@ -20,6 +22,11 @@ module.exports = {
   ],
 
 
-  rules: {'prettier/prettier': ['error', {endOfLine: 'auto'}]},
+
+
+
+
+
+  rules: {'prettier/prettier': 0},
 
 };
