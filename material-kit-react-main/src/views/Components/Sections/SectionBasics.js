@@ -1,12 +1,7 @@
 import React from "react";
 import Button from "components/CustomButtons/Button.js";
-
-
-<script
-  src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
-  crossOrigin="anonymous"
-></script>;
+import Table from 'react-bootstrap/Table';
+import "assets/scss/material-kit-react.scss?v=1.10.0";
 
 export default function SectionBasics() {
   React.useEffect(() => {});
@@ -20,7 +15,11 @@ export default function SectionBasics() {
             Click if u hate Prettier/Prettier
           </Button>
 
-          <table className="table">
+        </div>
+      </div>
+
+      <div>
+          <Table responsive>
             <thead>
               <tr>
                 <th scope="col">#</th>
@@ -50,8 +49,7 @@ export default function SectionBasics() {
                 <td>@twitter</td>
               </tr>
             </tbody>
-          </table>
-        </div>
+          </Table>
       </div>
     </div>
   );

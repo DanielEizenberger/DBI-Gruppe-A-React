@@ -2,39 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9c7b34c-ce73-4d61-8c0e-80da7c1f0300" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/boostrap/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/boostrap/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/boostrap/bootstrap-grid.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/boostrap/bootstrap-grid.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/boostrap/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/boostrap/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/boostrap/bootstrap-reboot.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/boostrap/bootstrap-reboot.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/boostrap/bootstrap-utilities.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/boostrap/bootstrap-utilities.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/boostrap/bootstrap-utilities.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/boostrap/bootstrap-utilities.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/boostrap/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/boostrap/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/boostrap/bootstrap.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/boostrap/bootstrap.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/jss/bootstrap/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/jss/bootstrap/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/jss/bootstrap/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/jss/bootstrap/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/jss/bootstrap/bootstrap.esm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/jss/bootstrap/bootstrap.esm.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/jss/bootstrap/bootstrap.esm.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/jss/bootstrap/bootstrap.esm.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/jss/bootstrap/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/jss/bootstrap/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/jss/bootstrap/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/jss/bootstrap/bootstrap.min.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/boostrap/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/boostrap/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/boostrap/bootstrap-grid.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/boostrap/bootstrap-grid.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/boostrap/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/boostrap/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/boostrap/bootstrap-reboot.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/boostrap/bootstrap-reboot.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/boostrap/bootstrap-utilities.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/boostrap/bootstrap-utilities.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/boostrap/bootstrap-utilities.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/boostrap/bootstrap-utilities.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/boostrap/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/boostrap/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/boostrap/bootstrap.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/boostrap/bootstrap.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/jss/bootstrap/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/jss/bootstrap/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/jss/bootstrap/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/jss/bootstrap/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/jss/bootstrap/bootstrap.esm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/jss/bootstrap/bootstrap.esm.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/jss/bootstrap/bootstrap.esm.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/jss/bootstrap/bootstrap.esm.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/jss/bootstrap/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/jss/bootstrap/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/jss/bootstrap/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/jss/bootstrap/bootstrap.min.js.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Components/Sections/SectionBasics.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Components/Sections/SectionBasics.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +90,8 @@
       <workItem from="1623063100145" duration="168000" />
       <workItem from="1623141902553" duration="629000" />
       <workItem from="1623228529823" duration="3532000" />
-      <workItem from="1623232121748" duration="819000" />
+      <workItem from="1623232121748" duration="2912000" />
+      <workItem from="1623237172303" duration="2323000" />
     </task>
     <servers />
   </component>
