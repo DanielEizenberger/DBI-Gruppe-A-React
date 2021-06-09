@@ -12,30 +12,31 @@ export default function SectionTable() {
             <thead>
               <tr>
                 <th scope="col">#</th>
-                <th scope="col">First</th>
-                <th scope="col">Last</th>
-                <th scope="col">Handle</th>
-                 <th scope="col">Handle</th>
+                <th scope="col">Dienstname</th>
+                <th scope="col">Mitarbeiter</th>
+                <th scope="col">Datum</th>
+
               </tr>
             </thead>
 
             <tbody>
               <tr>
                 <th scope="row">1</th>
-                <td>Mark</td>
+                <td>Stall ausräumen</td>
                 <td>Otto</td>
-                <td>@mdo</td>
+                <td>06.06.2021</td>
               </tr>
               <tr>
                 <th scope="row">2</th>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>@fat</td>
+                <td>Rasenmähen</td>
+                <td>Julia</td>
+                <td>20.03.2020</td>
               </tr>
               <tr>
                 <th scope="row">3</th>
-                <td colSpan="2">Larry the Bird</td>
-                <td>@twitter</td>
+                <td>Putzen</td>
+                <td>Hans</td>
+                <td>23.01.2019</td>
               </tr>
             </tbody>
           </Table>
