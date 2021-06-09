@@ -16,6 +16,9 @@ import OpenMapButton from "components/CustomButtons/OpenMapButton";
 // sections for this page
 import SectionTable from "./Sections/SectionTable.js";
 import styles from "assets/jss/material-kit-react/views/components.js";
+import SectionSearch from "./Sections/SectionSearch";
+import SectionFooter from "./Sections/SectionFooter";
+import ownStyles from '../../assets/css/myOwnStyle.module.css'
 
 const useStyles = makeStyles(styles);
 
@@ -59,10 +62,11 @@ export default function Components(props) {
           </GridContainer>
         </div>
       </Parallax>
-      <div className={classNames(classes.main, classes.mainRaised)}>
+      <div className={classNames(classes.main, classes.mainRaised, ownStyles.mainRaised)} >
 
-
+        <SectionSearch/>
         <SectionTable />
+        <SectionFooter/>
 
       </div>
     </div>
