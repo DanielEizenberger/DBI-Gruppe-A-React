@@ -2,6 +2,8 @@
 
 Documentation of all URIs for the Service REST-API.
 
+**PORT:** 8080
+
 ## GET
 
 ### GET ALL
