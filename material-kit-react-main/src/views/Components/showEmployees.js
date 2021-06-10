@@ -54,12 +54,16 @@ export default function showEmployees() {
                             <div className={classes.brand}>
                                 <h1 className={classes.title}>Service Application</h1>
                                 <h3 className={classes.subtitle}>HTL Grieskirchen</h3>
-                                <Button className={classes.button} color="primary">
-                                    <Link to="/">Zurück</Link>
-                                </Button>
+                                <a href="/">
+                                    <Button className={classes.button} color="primary">
+                                        <Link to="/">Zurück</Link>
+                                    </Button>
+                                </a>
+                                <a href="/newEmployee">
                                 <Button className={classes.button} color="success">
                                     <Link to="/newEmployee">Neuen Mitarbeiter anlegen</Link>
                                 </Button>
+                                </a>
                             </div>
                         </GridItem>
                     </GridContainer>

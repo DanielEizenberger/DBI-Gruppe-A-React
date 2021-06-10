@@ -12,7 +12,7 @@ import GridItem from "components/Grid/GridItem.js";
 import Parallax from "components/Parallax/Parallax.js";
 import ServiceAddButton from "components/CustomButtons/ServiceAddButton";
 import OpenEmployeesButton from "components/CustomButtons/OpenEmployeesButton";
-import OpenMapButton from "components/CustomButtons/OpenMapButton";
+
 // sections for this page
 import SectionTable from "./Sections/SectionTable.js";
 import styles from "assets/jss/material-kit-react/views/components.js";
@@ -50,18 +50,23 @@ export default function Components(props) {
               <div className={classes.brand}>
                 <h1 className={classes.title}>Service Application</h1>
                 <h3 className={classes.subtitle}>HTL Grieskirchen</h3>
+                <a href="/createService">
                 <ServiceAddButton className={classes.button} color="primary">
                   <Link to="/createService">Neuen Service hinzufügen</Link>
                 </ServiceAddButton>
-                <OpenEmployeesButton
+                </a>
+
+                  <a href="/showEmployees">
+                  <OpenEmployeesButton
                   className={classes.button}
                   color="secondary"
                 >
-                    <Link to="/showEmployees">Mitarbeiter anzeigen</Link>
+                    Mitarbeiter anzeigen
                 </OpenEmployeesButton>
-                <OpenMapButton className={classes.button} color="primary">
+                  </a>
+                {/*<OpenMapButton className={classes.button} color="primary">
                   Karte anzeigen
-                </OpenMapButton>
+                </OpenMapButton>*/}
               </div>
             </GridItem>
           </GridContainer>

@@ -1,4 +1,3 @@
-
 import styles from "assets/jss/material-kit-react/views/components.js";
 import CustomInput from "../../components/CustomInput/CustomInput";
 import axios from "axios";
@@ -9,7 +8,7 @@ import Parallax from "../../components/Parallax/Parallax";
 import GridContainer from "../../components/Grid/GridContainer";
 import GridItem from "../../components/Grid/GridItem";
 import Button from "../../components/CustomButtons/Button";
-import {Link} from "@material-ui/core";
+
 const useStyles = makeStyles(styles);
 import ownStyles from '../../assets/css/myOwnStyle.module.css'
 
@@ -51,9 +50,11 @@ export default function newEmployees() {
                             <div className={classes.brand}>
                                 <h1 className={classes.title}>Service Application</h1>
                                 <h3 className={classes.subtitle}>HTL Grieskirchen</h3>
-                                <Button className={classes.button} color="primary">
-                                    <Link to="/">Zurück</Link>
-                                </Button>
+                                <a href="/">
+                                    <Button className={classes.button} color="primary">
+                                        Zurück
+                                    </Button>
+                                </a>
 
                             </div>
                         </GridItem>
@@ -93,14 +94,11 @@ export default function newEmployees() {
 
 
 
-
-                <Button onClick={() => {
+                <a href="/showEmployees" onClick={() => {
                     addEmployee();
-                }}
-                        color="primary">
-                    Anlegen
-                </Button>
-
+                }}>
+                <Button color="primary">Anlegen</Button>
+                </a>
             </div>
         </div>)
 }

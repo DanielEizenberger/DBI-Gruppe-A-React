@@ -1,7 +1,7 @@
 import Parallax from "../../components/Parallax/Parallax";
 import GridContainer from "../../components/Grid/GridContainer";
 import GridItem from "../../components/Grid/GridItem";
-import {Link} from "react-router-dom";
+
 import classNames from "classnames";
 import React from "react";
 import Button from "../../components/CustomButtons/Button";
@@ -65,9 +65,12 @@ export default function newService() {
                             <div className={classes.brand}>
                                 <h1 className={classes.title}>Service Application</h1>
                                 <h3 className={classes.subtitle}>HTL Grieskirchen</h3>
-                                <Button className={classes.button} color="primary">
-                                    <Link to="/">Zurück</Link>
-                                </Button>
+                                <a href="/">
+                                    <Button className={classes.button} color="primary">
+                                        Zurück
+                                    </Button>
+                                </a>
+
 
                             </div>
                         </GridItem>
@@ -125,14 +128,12 @@ export default function newService() {
                     </FormControl>
                 </div>
 
-
-                <Button onClick={() => {
+                
+                <a href="/" onClick={() => {
                     addService();
-                }}
-                        color="primary">
-                    Anlegen
-                </Button>
-
+                }}>
+                <Button color="primary">Anlegen</Button>
+                </a>
             </div>
         </div>)
 }

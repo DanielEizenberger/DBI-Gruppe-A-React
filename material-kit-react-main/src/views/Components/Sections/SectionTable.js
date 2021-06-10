@@ -23,22 +23,20 @@ export default function SectionTable() {
         axios.get('http://localhost:8080/serviceBackend')
             .then((response) => {
 
-                setRows(response.data)
 
+                axios.get(`http://localhost:8081/employeeBackend/`)
+                    .then((responseMa)=>{
+                        setMitarbeiter(responseMa.data);
+                        setRows(response.data);
+                    })
             })
     }
 
-    const fetchAllEmployees = () => {
-        axios.get(`http://localhost:8081/employeeBackend/`)
-            .then((response)=>{
-                setMitarbeiter(response.data);
-            })
 
-    }
 
     React.useEffect(() => {
-        fetchAllServices()
-        fetchAllEmployees()
+        fetchAllServices();
+
     }, []);
     return (
         <div>
@@ -60,7 +58,7 @@ export default function SectionTable() {
                     <tr key={item.id}>
                         <th scope="row">{item.id}</th>
                         <td>{item.name}</td>
-                        <td>{mitarbeiter.filter(x => x.id === item.employeeId)[0].firstname + " " + mitarbeiter.filter(x => x.id === item.employeeId)[0].lastname}</td>
+                        <td>{mitarbeiter.filter(x=> x.id === item.employeeId)[0].firstname + " " + mitarbeiter.filter(x=> x.id === item.employeeId)[0].lastname}</td>
                         <td>{item.date}</td>
                         <th>
                             <Button onClick={() => {
