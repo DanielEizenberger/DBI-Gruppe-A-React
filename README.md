@@ -35,8 +35,9 @@ The repository of group A (React)
 
 ## 3. Aufgabe
 - Ordner "HelloWorld"
+- [Quellenverzeichnis](Documents/DBI-A-Quellenverzeichnis.pdf)
 ## 4. Aufgabe
-- [Design](Design.pdf)
+- [Design](Documents/Design.pdf)
 ## 5. Aufgabe
 - Ordner "Frontend"
 ## 6. Aufgabe
