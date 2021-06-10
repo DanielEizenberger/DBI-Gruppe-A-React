@@ -10,7 +10,12 @@ The repository of group A (React)
 │   └── ServiceMicroservice
 │       ├── src/main
 │       └── README.md
-├── Frontend
+├── material-kit-react-main
+│   ├── public
+│   ├── src
+│   ├── .gitignore
+│   ├── LICENSE.md
+│   └── README.md
 ├── HelloWorld
 │   ├── public
 │   ├── src
